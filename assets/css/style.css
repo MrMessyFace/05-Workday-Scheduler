@@ -6,7 +6,7 @@ body {
 }
 
 .display-3 {
-  color: green;
+  color: lime;
 }
 
 textarea {
@@ -64,7 +64,7 @@ textarea {
 }
 
 .footer {
-  color: green;
+  color: lime;
   font-weight: bold;
   position: bottom;
   margin-top: 45px;
