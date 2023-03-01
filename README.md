@@ -18,4 +18,4 @@ When a user loads the page, it automatically tells you the current date and time
 
 Starter code was provided to me in the bootcamp but color changes were made by me. A large portion of the JavaScript code was originally used by [codingprincess111](https://github.com/codingprincess111/Work-Day-Scheduler) but was polished by me with changes made to make the date, time, and highlighted hour update in real time. I found the code to update the time in real time via [Stack Overflow](https://stackoverflow.com/questions/13313348/jquery-update-time). I was able to update the styling of the time with Day.JS and updating highlighted hour without having the page blink every second with help from the TAs [Theo](https://github.com/Tward9) and [Jen](https://github.com/Jdoyle5254) during office hours.
 
-https://github.com/MrMessyFace/workday-scheduler
+https://mrmessyface.github.io/workday-scheduler/
