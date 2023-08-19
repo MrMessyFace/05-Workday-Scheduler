@@ -1,19 +1,23 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  background-color: black;
-  color: white;
 }
 
-.display-3 {
-  color: lime;
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  padding-bottom: 50px;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  border-left: 2px solid white;
+  color: #000000;
+  border-left: 1px solid black;
   padding: 10px;
 }
 
@@ -26,13 +30,13 @@ textarea {
 }
 
 .row {
-  border-top: 2px solid black;
+  border-top: 1px solid white;
 }
 
 .hour {
-  background-color: black;
-  color: white;
-  border-top: 2px solid white;
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
 }
 
 .past {
@@ -51,11 +55,11 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 2px solid black;
+  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: lime;
-  color: black;
+  background-color: #06aed5;
+  color: white;
 }
 
 .saveBtn i:hover {
@@ -63,13 +67,33 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+.notification {
+  display: none;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.show {
+  display: block;
+}
+
 .footer {
-  color: lime;
-  font-weight: bold;
-  position: bottom;
-  margin-top: 45px;
-  left: 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 50px;
   bottom: 0;
   width: 100%;
-  text-align: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: row;
+  color: #06aed5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
